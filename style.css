@@ -1,0 +1,142 @@
+body {
+    height: 100vh;
+    background-image: url(https://imgur.com/2amsoAb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    background-color: #F8F6F0;
+    width: 510px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.task-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    padding: 2px 0 0 0;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inptsss {
+    display: flex;
+    gap: 10px;
+}
+
+.inptsss div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+#result,
+#inputValue {
+    height: 40px;
+    font-size: 25px;
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    padding: 0 10px;
+    font-weight: 600;
+    font-family: Gill Sans, sans-serif;
+}
+
+#result:focus,
+#inputValue:focus {
+    height: 40px;
+    font-size: 25px;
+    border: 1px solid rgb(130, 130, 255);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    padding: 0 10px;
+}
+
+#btn {
+    font-family: Georgia, serif;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #46C7C7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #20B2AA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.resultss {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#type1,
+#type2 {
+    font-family: Bradley Hand, cursive;
+    font-style: italic;
+    height: 41px;
+    font-size: 25px;
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    padding: 0 10px;
+}
+
+#type1:focus,
+#type2:focus {
+    height: 41px;
+    font-size: 25px;
+    border: 1px solid rgb(130, 130, 255);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    padding: 0 10px;
+}
+
+label {
+    font-size: 17px;
+    font-family: -webkit-pictograph;
+    color: gray;
+}

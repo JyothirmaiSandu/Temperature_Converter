@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <div class="task-bar">
+            </div>
+            <h1>Temperature Converter</h1>
+            <div class="inputs">
+                <div style="display: flex; flex-direction: column;">
+                    <label for="degree">Enter any Value to Convert</label><br>
+                    <input type="number" name="degree" id="inputValue" required>
+                </div>
+                <div class="inptsss">
+                    <div>
+                        <label for="type">From</label>
+                        <select name="type" id="type1">
+                            <option value="">Select</option>
+                            <option value="celcius">Celcius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="type">To</label>
+                        <select name="type" id="type2">
+                            <option value="">Select</option>
+                            <option value="celcius">Celcius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                            <option value="kelvin">Kelvin</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" id="btn" onclick="temperature()">Convert</button>
+            <div class="resultss">
+                <label for="result">Result</label>
+                <div id="result"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+</html>
